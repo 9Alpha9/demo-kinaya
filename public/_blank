@@ -1,0 +1,50 @@
+<div class="flex items-center justify-between w-full mx-auto">
+                                        </div>
+                                        <div class="flex items-center justify-between w-full mx-auto">
+                                            <div class="grid w-full gap-1 lg:gap-2 lg:grid-cols-2 md:col-span-1 lg:col-span-2 ">
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Arsitek</h1>
+                                                    <h5 class="info-sub">Lorem, ipsum dolor.</h5>
+                                                </section>
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Tim Disain</h1>
+                                                    <h5 class="info-sub">Lorem ipsum dolor sit.</h5>
+                                                </section>
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Enginer</h1>
+                                                    <h5 class="info-sub">Lorem ipsum dolor sit.</h5>
+                                                </section>
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-10 items-center justify-between w-full mx-auto">
+                                            <div class="grid w-full gap-1 lg:gap-2 lg:grid-cols-2 md:col-span-1 lg:col-span-2 ">
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Kontraktor</h1>
+                                                    <h5 class="info-sub">Lorem, ipsum dolor.</h5>
+                                                </section>
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Photografer</h1>
+                                                    <h5 class="info-sub">Lorem ipsum dolor sit.</h5>
+                                                </section>
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Tipe Project</h1>
+                                                    <h5 class="info-sub">Lorem ipsum dolor sit.</h5>
+                                                </section>
+                                            </div>
+                                        </div>
+                                        <div class="flex mt-10 items-center justify-between w-full mx-auto">
+                                            <div class="grid w-full gap-1 lg:gap-2 lg:grid-cols-2 md:col-span-1 lg:col-span-2 ">
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Lokasi</h1>
+                                                    <h5 class="info-sub">Lorem, ipsum dolor.</h5>
+                                                </section>
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Luas Bangunan</h1>
+                                                    <h5 class="info-sub">Lorem ipsum dolor sit.</h5>
+                                                </section>
+                                                <section class="m-2">
+                                                    <h1 class="info-txt">Tahun Project</h1>
+                                                    <h5 class="info-sub">Lorem ipsum dolor sit.</h5>
+                                                </section>
+                                            </div>
+                                        </div>

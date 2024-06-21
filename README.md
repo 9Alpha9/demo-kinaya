@@ -1,0 +1,1 @@
+Kinaya Group adalah sebuah usaha yang bergerak dalam bidang architecture, seperti desain interior, jasa service, dan lain-lain. Untuk saat ini kinaya group dalam melakukan promosinya melalui website masih sangat belum responsive. Oleh karena itu kami ditugaskan untuk melakukan re-desain dan re-coding mulai dari awal untuk menyesuaikan dari user melalui tampilan UI/UX serta Admin.

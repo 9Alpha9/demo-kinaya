@@ -1,0 +1,505 @@
+@font-face {
+    font-family: "CaviarDreams";
+    src: url("/assets/fonts/CaviarDreams.ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-Medium";
+    src: url("/assets/fonts/Montserrat-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("/assets/fonts/Montserrat-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Regular";
+    src: url("/assets/fonts/Montserrat-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Light";
+    src: url("/assets/fonts/Montserrat-Light.ttf");
+  }
+  
+  :root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --base-color: #1b1b1b;
+    --main-color: #dfdfdf;
+    --main-link-color: #98705d;
+    --main-text-color: #7e7e7e;
+  
+    --txt-100: 1.3rem;
+    --txt-200: 1.6rem;
+    --txt-300: 2rem;
+    --txt-500: 6rem;
+    --txt-600: 10rem;
+    --txt-800: 15rem;
+  
+    --main-text-size: 1.2rem;
+  }
+  
+  //Start Gallery
+  
+  // .gallery-team {
+  //     display: grid;
+  //     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  //   }
+  
+  .gallery-team .item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .head-title h1 {
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: var(--txt-300);
+  }
+  
+  .gallery-team .item img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 800ms ease;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+  }
+  
+  .gallery-team .caption {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: var(--txt-200);
+    line-height: 1;
+    white-space: normal;
+    word-break: break-word;
+    position: absolute;
+    text-align: center;
+    padding-top: 200px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    transition: transform 800ms ease;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    background: rgba(0, 0, 0, 0.65);
+  }
+  
+  .gallery-team .item:hover .caption {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+  }
+  
+  // .myGallery .item .caption:hover {
+  //   // color: #a47913;
+  // }
+  
+  .gallery-team .item:hover img {
+    transition: transform 800ms ease;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  
+  /*
+          The rest is only styling for this example page
+        */
+  
+  .gallery-team {
+    font-size: 1rem;
+  }
+  
+  // .gallery {
+  // 	display: flex;
+  // 	flex-wrap: wrap;
+  // 	/* Compensate for excess margin on outer gallery flex items */
+  // 	// margin: -1rem -1rem;
+  // }
+  
+  // .gallery-image {
+  // 	display: block;
+  // 	width: 100%;
+  // 	height: 100%;
+  // 	object-fit: cover;
+  // 	transition: transform 400ms ease-out;
+  // 	-webkit-transition: transform 400ms ease-out;
+  // 	-moz-transition: transform 400ms ease-out;
+  // 	-ms-transition: transform 400ms ease-out;
+  // 	-o-transition: transform 400ms ease-out;
+  // }
+  
+  // .gallery-image:hover {
+  // 	transform: scale(1.15);
+  // 	-webkit-transform: scale(1.15);
+  // 	-moz-transform: scale(1.15);
+  // 	-ms-transform: scale(1.15);
+  // 	-o-transform: scale(1.15);
+  // }
+  //End Gallery
+  /*End Media Query*/
+  .about-p {
+    .hero-title {
+      font-size: var(--txt-500);
+      // padding: 0px 4rem;
+      top: 0;
+      // margin-top: 1rem;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+      left: 0;
+    }
+  }
+  .hero-title {
+    rotate: -90deg;
+    margin-left: -12%;
+    margin-top: 20rem;
+    position: absolute;
+  }
+  
+  /*Section*/
+  .section-main {
+    background: #1b1b1b;
+  }
+  
+  .p-about {
+    width: 50%;
+  }
+  
+  .section-main {
+    height: 100%;
+    position: relative;
+  }
+  
+  .sec-about {
+    color: white;
+    font-family: "CaviarDreams";
+    font-size: var(--txt-100);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /*Profile kinaya*/
+  .profile-kinaya {
+    .cp {
+      font-size: var(--txt-100);
+      line-height: 2.6rem;
+      color: #ffffff;
+      font-family: "CaviarDreams";
+      text-justify: inter-character;
+      margin: 40px 0;
+    }
+  }
+  
+  .profile-kinaya img {
+    height: auto;
+    width: 250px;
+  }
+  
+  .profile-kinaya {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /*End Profile kinaya*/
+  
+  // Modal
+//   .modal {
+//     margin-top: 10%;
+//   }
+  
+  .modal-title {
+    font-family: "Montserrat-Bold";
+  }
+  
+  .team-id {
+    font-family: "Montserrat-Bold";
+    text-transform: uppercase;
+  }
+  
+  .team-desc {
+    font-family: "CaviarDreams";
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    text-align: justify;
+    margin-top: 30px;
+    // word-break: break-all;
+    // word-spacing: -3px;
+  }
+  
+  .text-secondary{
+      font-family: 'Montserrat-Medium';
+      letter-spacing: 1px;
+  }
+
+  .logo-kinaya {
+    height: 15%;
+    width: 15%;
+    margin: 0 13px;
+  }
+  
+  .media-icon-team{
+      padding-right: 10px;
+    //   text-transform: uppercase;
+      font-family: 'Montserrat';
+      font-size: 0.9rem;
+  }
+.social-team
+.media-icon-team a{
+    text-decoration: none;
+    color: var(--base-color);
+}
+.social-team
+.media-icon-team a:hover{
+    color: var(--main-link-color);
+}
+
+/*Link Hover*/
+.media-icon-team a {
+    letter-spacing: 0.5px;
+    position: relative;
+    // padding: 0 2px;
+  }
+  
+  .media-icon-team a:after {
+    content: "";
+    position: absolute;
+    background-color: #98705D;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+    // transition: transform .5s ease;
+  }
+  
+  .media-icon-team a:hover:after {
+    width: 100%;
+  }
+  
+  .media-icon-team a:hover {
+    color: #98705D;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    // font-size: 17px;
+    transform: scale(1.5);
+  }
+
+  //END MODAL
+
+      
+      
+
+  /*Vision and Mission
+  ----Title
+  ----Caption
+  */
+  .vision-mision h1 {
+    color: #ffffff;
+    font-family: "Montserrat-Bold";
+    margin: 40px 0;
+    text-transform: uppercase;
+  }
+  .kinaya-vision::after {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 1px;
+    width: 20px;
+    // margin: 30px 0;
+    // z-index: 2;
+    margin-left: -118px;
+    // display: inline-block;
+  }
+  .kinaya-mision::after {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 1px;
+    width: 20px;
+    // margin: 30px 0;
+    // z-index: 2;
+    margin-left: -124px;
+    // display: inline-block;
+  }
+  
+  .kinaya-vision {
+    font-size: var(--txt-300);
+  }
+  .kinaya-mision {
+    font-size: var(--txt-300);
+  }
+  .caption {
+    color: #ffffff;
+    font-family: "CaviarDreams";
+    font-size: var(--txt-100);
+  }
+  
+  /*END Vision and Mission
+  ----Title
+  ----Caption
+  */
+  
+  /*Media Query*/
+  /*Mobile*/
+  @media screen and (max-width: 767px) {
+    .section-main .p-about {
+      width: 100%;
+    }
+    .center-team {
+      margin-top: 30px;
+    }
+    .banner-hero video {
+      object-fit: cover;
+      height: 100vh;
+      display: block;
+      width: auto;
+      overflow-x: hidden;
+    }
+    .vid-shdw {
+      background: rgb(27, 27, 27);
+      background: linear-gradient(
+        360deg,
+        rgba(27, 27, 27, 1) 0%,
+        rgba(0, 0, 0, 0) 32%
+      );
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      top: 0;
+    }
+    .download {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 320px;
+      font-size: 14px;
+    }
+    
+    .gallery-team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .modal {
+      margin-top: 20%;
+    }
+    .p_image {
+      display: none;
+    }
+    .logo-kinaya {
+      width: 25%;
+      height: 25%;
+    }
+    .team-desc {
+        font-family: "CaviarDreams";
+        font-size: 1.1rem;
+        line-height: 2rem;
+        text-align: justify;
+        text-justify: distribute;
+        // word-break: break-all;
+        // word-spacing: -5.5px;
+      }
+      .modal-team{
+        margin: 200px 0;
+    }
+  }
+  
+  
+
+  /*Tablet*/
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .center-team {
+      margin-top: 30px;
+    }
+    .banner-hero video {
+      object-fit: cover;
+      height: 100vh;
+      display: block;
+      width: 100%;
+      overflow: hidden;
+    }
+    .vid-shdw {
+      background: rgb(27, 27, 27);
+      background: linear-gradient(
+        360deg,
+        rgba(27, 27, 27, 1) 0%,
+        rgba(0, 0, 0, 0) 32%
+      );
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    .download {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 320px;
+      font-size: 14px;
+    }
+    
+    .gallery-team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .team-desc {
+        font-family: "CaviarDreams";
+        font-size: 1.1rem;
+        line-height: 2rem;
+        text-align: justify;
+        text-justify: distribute;
+        // word-break: break-all;
+        // word-spacing: -5.5px;
+      }
+      .modal-team{
+        margin: 200px 0;
+    }
+  }
+  
+  /*Desktop*/
+  @media screen and (min-width: 1024px) {
+    .banner-hero video {
+      object-fit: cover;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      top: 0;
+    }
+    .vid-shdw {
+      background: rgb(27, 27, 27);
+      background: linear-gradient(
+        360deg,
+        rgba(27, 27, 27, 1) 0%,
+        rgba(0, 0, 0, 0) 32%
+      );
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    .gallery-team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .modal-team{
+        margin:178px 0;
+    }
+  }
+  
+  .owl-gallery-item img{
+    height: 100vh;
+    width: 100vh;
+}
